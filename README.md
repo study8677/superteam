@@ -62,7 +62,9 @@ AI 降低单项知识工作的执行成本
 5. [传统团队的瓶颈](docs/04-from-traditional-team.md)
 6. [从传统团队到超级团队](docs/05-to-super-team.md)
 7. [进化路线图](docs/06-evolution-roadmap.md)
-8. [新规则与风险边界](docs/07-new-rules-and-risks.md)
+8. [当代社会不同主体如何组建超级团队](docs/07-build-superteams-by-context.md)
+9. [超级团队的组织形态](docs/08-superteam-organization-models.md)
+10. [新规则与风险边界](docs/09-new-rules-and-risks.md)
 
 ## 你会得到什么
 
@@ -75,6 +77,8 @@ AI 降低单项知识工作的执行成本
 | 超级团队 | 团队如何从人力协作升级为人机协作系统 |
 | 进化路线 | 个体和团队分别应该按什么顺序升级 |
 | 新规则风险 | 速度越快，为什么越需要责任、验证和边界 |
+| 组建路径 | 个人、小团队、初创公司、中小公司、大公司分别如何组建 |
+| 组织形态 | 嵌入式、超级扁平式、平台式、项目制、网络式如何选择 |
 
 ## 核心判断
 
@@ -93,9 +97,11 @@ AI 降低单项知识工作的执行成本
 - [团队章程模板](templates/team-charter.md)
 - [AI 工作流规格模板](templates/ai-workflow-spec.md)
 - [每周复盘模板](templates/weekly-review.md)
+- [超级团队组建检查清单](templates/superteam-formation-checklist.md)
 - [工具选型矩阵](tools/selection-matrix.md)
 - [Prompt 使用原则](prompts/README.md)
 - [小型产品团队进化示例](examples/small-product-team.md)
+- [不同主体组建超级团队示例](examples/by-context-scenarios.md)
 
 ## 仓库结构
 
@@ -111,7 +117,9 @@ AI 降低单项知识工作的执行成本
 │   ├── 04-from-traditional-team.md
 │   ├── 05-to-super-team.md
 │   ├── 06-evolution-roadmap.md
-│   └── 07-new-rules-and-risks.md
+│   ├── 07-build-superteams-by-context.md
+│   ├── 08-superteam-organization-models.md
+│   └── 09-new-rules-and-risks.md
 ├── templates/
 ├── tools/
 ├── prompts/
@@ -120,5 +128,4 @@ AI 降低单项知识工作的执行成本
 
 ## 内容状态
 
-当前是 `0.2.0`，已经从“工具化教程包”调整为“为什么出现 + 如何进化”的说明型教程仓库。后续最值得继续补充的是更多行业案例、传统组织前后对照和成熟度评估。
-
+当前是 `0.3.0`，已经补充“当代社会不同主体如何组建超级团队”和“超级团队组织形态选择”。后续最值得继续补充的是更多行业案例、传统组织前后对照和成熟度评估。
