@@ -1,0 +1,27 @@
+name: 案例投稿
+description: 提交个人或团队实践案例
+title: "[案例] "
+labels: ["case"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景
+      description: 你的个人或团队场景是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 工作流
+      description: AI 参与了哪些环节？人负责哪些判断？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 结果与证据
+      description: 你如何判断这个案例有效？
+    validations:
+      required: false
+

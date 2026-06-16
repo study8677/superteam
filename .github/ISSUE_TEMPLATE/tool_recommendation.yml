@@ -1,0 +1,25 @@
+name: 工具推荐
+description: 推荐一个和场景绑定的 AI 工具或协作工具
+title: "[工具] "
+labels: ["tooling"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: 工具名称
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 适用场景
+      description: 它解决什么具体问题？
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: 验证方式
+      description: 使用这个工具后，如何检查输出质量？
+    validations:
+      required: true

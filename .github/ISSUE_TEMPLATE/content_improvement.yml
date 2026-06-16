@@ -1,0 +1,26 @@
+name: 内容改进
+description: 反馈教程、模板或示例中的问题
+title: "[内容改进] "
+labels: ["content"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题
+      description: 哪段内容不清楚、不准确或不够可执行？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议
+      description: 你建议如何修改？
+    validations:
+      required: false
+  - type: input
+    id: file
+    attributes:
+      label: 相关文件
+      placeholder: docs/01-super-individual.md
+    validations:
+      required: false
